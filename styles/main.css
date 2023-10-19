@@ -168,3 +168,45 @@ h1,
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+  .center-content {
+    position: static;
+    transform: none;
+    left: auto;
+    top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    padding: 10px; /* Add padding to prevent the logo from touching the box edges */
+    border-radius: 10px; /* Optional: to have rounded corners */
+  }
+  #logo-container {
+    position: fixed;
+    bottom: 20px;
+    right: 50%;
+    transform: translateX(50%);
+    top: auto;
+    background-color:  rgba(255, 255, 255, .75);;
+  }
+  #logo-container.sticky-bottom #logo {
+    margin: 0 auto;
+  }
+  .welcome-text {
+    font-size: 30pt; /* Adjust the size as needed */
+    text-align: center;
+  }
+
+  .welcome-text2 {
+    font-size: 18pt; /* Adjust the size as needed */
+    text-align: center;
+  }
+
+  .welcome-text3 {
+    font-size: 12pt; /* Adjust the size as needed */
+    text-align: center;
+  }
+  .social-contact {
+    padding-bottom: 300px;
+  }
+}
