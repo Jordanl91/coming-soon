@@ -28,21 +28,21 @@ h1,
 .welcome-text {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 100; /* Semi Bold */
-  font-size: 32pt; /* You can adjust the size as needed */
+  font-size: 42pt; /* You can adjust the size as needed */
   text-align: right;
 }
 
 .welcome-text2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-weight: 10; /* Semi Bold */
-  font-size: 18pt; /* You can adjust the size as needed */
+  font-size: 24pt; /* You can adjust the size as needed */
   text-align: right;
 }
 
 .welcome-text3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 10; /* Semi Bold */
-  font-size: 10pt; /* You can adjust the size as needed */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 50; /* Semi Bold */
+  font-size: 14pt; /* You can adjust the size as needed */
   text-align: right;
 }
 
